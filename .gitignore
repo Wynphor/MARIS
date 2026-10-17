@@ -1,0 +1,121 @@
+.deepseek/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Local AI tool config
+.claude/
+.gemini/
+.antigravitycli/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+pytest-tmp/
+pytest-tmp-*/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+frontend/src-tauri/target/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+mathmodel.db
+
+# Runtime workspace data (contains generated artifacts)
+data/
+backend/data/
+
+# Chat exports (personal data)
+chat_export_*.md
+
+# Large community/community files (not part of core project)
+Auto-claude-code-research-in-sleep-main/
+community_papers/
+DeepSeek/
+Gemini/
+MIMO/
+
+# Generated competition artifacts
+output/
+paper/*.aux
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
+paper/*.xdv
+paper/*.pdf
+paper/backups/
+*.bak
+submission/
+submission*.zip
+submission*.rar
+支撑材料*.zip
+支撑材料*.rar
+manifest.json
+
+# Local scratch/runtime files
+scratch/
+session_*.json
+$null
+
+# Temporary tool scripts
+tools/test_gbk_encode.py
+tools/read_*.py
+tools/restore_*.py
+tools/reconstruct_*.py
+tools/inspect_*.py
+tools/check_*.py
+tools/find_*.py
+tools/search_*.py
+tools/verify_*.py
+tools/clean_*.py
+tools/extract_*.py
+tools/analyze_*.py
+tools/link_*.ps1
+
+# Patent output — contains confidential invention details, do not commit
+patent/
+# Allow patent framework files (skills, templates, shared references)
+!skills/patent-pipeline/
+!skills/prior-art-search/
+!skills/patent-novelty-check/
+!skills/invention-structuring/
+!skills/claims-drafting/
+!skills/embodiment-description/
+!skills/figure-description/
+!skills/specification-writing/
+!skills/patent-review/
+!skills/jurisdiction-format/
+!skills/shared-references/patent-format-cn.md
+!skills/shared-references/patent-format-ep.md
+!skills/shared-references/patent-format-us.md
+!skills/shared-references/patent-writing-principles.md
+!skills/shared-references/prior-art-databases.md
+!templates/INVENTION_BRIEF_TEMPLATE.md
+!templates/PATENT_CLAIMS_TEMPLATE.md
+!templates/PATENT_SPECIFICATION_TEMPLATE.md
+
+# OMC runtime state
+.omc/
