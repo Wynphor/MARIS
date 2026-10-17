@@ -2,6 +2,8 @@
 
 数学建模竞赛全流程自动化后端 —— 从赛题上传到论文提交，AI 驱动的端到端解决方案。
 
+MARIS（MathModel-Engine）是一套面向数学建模竞赛的端到端自动化系统，基于 ARIS 框架改造。系统集成 FastAPI 后端与 Vue/Tauri 桌面前端，内置 21 个 Pipeline 阶段，覆盖竞赛全流程：赛题拆解 → 文献调研 → 模型推荐 → 代码生成 → 图表制作 → LaTeX 论文写作与自动编译 → 红蓝对抗审查 → 格式检查 → 提交打包。支持 DeepSeek、MiMo、OpenAI、Claude、Gemini、Grok 六个大模型供应商协同工作，通过多模型分工（深度推理、轻量执行、交叉审查）平衡效果与成本，并配套完整的竞赛技能库（problem-decompose、model-select、code-template、sensitivity-analysis、contest-format、submit-pack 等）与历届真题、获奖论文参考资料，目标是在 3 天赛程内将"读题到定稿"压缩至数小时，为参赛队伍留足决策与打磨时间。
+
 ## 功能特性
 
 - **21 个 Pipeline Stage** 覆盖竞赛全流程：赛题拆解 → 模型推荐 → 代码生成 → 论文写作 → 红蓝对抗审查 → 自动改进 → 格式检查 → 提交打包
